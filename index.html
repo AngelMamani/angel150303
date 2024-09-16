@@ -14,6 +14,7 @@
                 <li>Procesos</li>
                 <li>Galeria</li>
                 <li>Intranet</li>
+                <li>Contacto</li>
             </ul>
         </nav>
     </header>
@@ -39,6 +40,77 @@
                      iusto vitae ipsam. Optio dolor quasi beatae nulla velit 
                      expedita nisi veniam ut. Aliquam.</p>
         </section>
+        <section>
+            <h2>Contactanos</h2>
+            <div>
+                <img src="./Semana 3 (assets)/WhatsApp Image 2024-09-16 at 14.30.32.jpeg" alt="contacto"
+                height="205" >
+            </div>
+            <div>
+                <form action="">
+                    <p>
+                        <label for="nombre">Registro:</label><br>
+                        <label for="">
+                            <input type="radio" name="titulo" value="sr">
+                            sr
+                        </label>
+                        <label for=""></label>
+                            <input type="radio" name="titulo" value="sra">
+                            sra
+                        </label>
+                        <label for=""></label>
+                            <input type="radio" name="titulo" value="srta">
+                            srta
+                        </label>
+                    </p>
+                    <p>
+                        <label for="nombres">Nombres</label><br>
+                        <!-- Permitir solo letras (mayúsculas y minúsculas) y espacios -->
+                        <input type="text" name="nombres" id="nombres" pattern="[A-Za-z\s]+" title="Solo se permiten letras y espacios" placeholder="Ingrese su nombre" required>
+                    </p>
+                    <p>
+                        <label for="apellidos">Apellidos</label><br>
+                        <input type="text" name="apellidos" pattern="[A-Za-z\s]+" title="Solo letras del alfabeto" required>
+                    </p>
+                    <p>
+                        <label for="email">Correo Electrónico</label><br>
+                        <input type="email" name="email" placeholder="ejemplo@unamad.edu.pe" required>
+                    </p>
+                    <p>
+                        <label for="direccion">Dirección</label><br>
+                        <input type="text" name="direccion">
+                    </p>
+                    <p>
+                        <label for="telefono">Teléfono</label><br>
+                        <input type="tel" name="telefono" pattern="[0-9]{9}" title="Debe contener 9 dígitos" required>
+                    </p>
+                    <p>
+                        <label for="regiones">Regiones</label>
+                        <select>
+                            <option value="0">Seleccione su Región Actual</option>
+                            <option value="1">Madre de Dios</option>
+                            <option value="2">Cusco</option>
+                            <option value="3">Puno</option>
+                            <option value="4">Ayacucho</option>
+                            <option value="5">Apurimac</option>
+                            <option value="6">Lima</option>
+                            <option value="7">Tacna</option>
+                            <option value="8">Piura</option>
+                            <option selected ="true">Ucayali</option>
+
+                            
+                        </select>
+                    </p>
+                    <p>
+                        <button>Enviar</button>
+                        <button type="reset">Limpiar</button>
+                    </p>
+                    
+                </form>
+            </div>
+        </section>
     </main>
+
+
 </body>
 </html>
